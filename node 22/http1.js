@@ -3,23 +3,7 @@ let num=0;
 let url=require('url');//-->取出地址栏的方法
 let string=require('querystring');
 var str=null;
-// http.createServer(function(req,res){//-->创建服务器  （请求，响应）
-//        var path = url.parse(req.url);
-//         console.log(path.pathname)
-//      if (path.pathname== '/favicon.ico') {
-//          res.end()
-//      } else {
-//          let js=string.parse(path.query);
-//          res.writeHead(200,{//-->设置响应头部信息
-//             'content-type':'text/html;charset=utf-8'
-//          });
-//          res.write('1111')
-//          res.end()
-//      }
-//      console.log(req.method)
-// }).listen(4000,function(){
-//     console.log('创建成功')
-// })
+
 http.createServer(function(req,res){
     if (req.method == 'GET') {
         var path = url.parse(req.url);

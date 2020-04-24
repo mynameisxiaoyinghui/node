@@ -1,7 +1,6 @@
 {
-  "name": "node-22",
+  "name": "22",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,5 +16,15 @@
     "nodemailer": "^6.4.6",
     "querystring": "^0.2.0",
     "url": "^0.11.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynameisxiaoyinghui/node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mynameisxiaoyinghui/node/issues"
+  },
+  "homepage": "https://github.com/mynameisxiaoyinghui/node#readme",
+  "description": ""
 }

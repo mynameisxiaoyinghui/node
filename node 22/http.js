@@ -45,4 +45,4 @@ var jso=htts.request('https://www.baidu.com/index.php?tn=95058559_8_hao_pg',func
         })
 });
 
-jso.end()
+jso.end()//==>结束请求
