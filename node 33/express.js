@@ -1,13 +1,7 @@
 let ex=require('express');
-let sxs=ex();
-sxs.get('/',function(res,req){
-    console.log(11);
-    req.send('111')
-});
+let ssa=ex();
 
-sxs.post('/',function(res,req){
-    console.log(222)
-    req.send('222')
+let reout=require('./router/index.js');
+ssa.use('/',reout)
 
-})
-sxs.listen(4001)
+ssa.listen(4001)
